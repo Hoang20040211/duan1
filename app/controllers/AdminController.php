@@ -1,4 +1,5 @@
 <?php 
+//xcvbnm
 if (isset($_GET['act'])) {
     $act = $_GET['act'];
     switch ($act) {
