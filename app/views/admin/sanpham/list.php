@@ -5,7 +5,7 @@
 
     <form action="index.php?act=listsp" method="post" class="m-10">
         <input placeholder="nhập tên sản phẩm..." style="border-radius: 50px;padding: 5px;border:1px solid gray;" type="text" name="kyw">
-        <select style="padding:4px ;color:white;background-color: cadetblue;border-radius: 20px;" name="iddm">
+        <select style="padding:4px ;color:white;background-color: #7D26CD;border-radius: 20px;" name="iddm">
             <option value="0" selected>All</option>
             <?php
             foreach ($listdanhmuc as $danhmuc) {
@@ -15,7 +15,7 @@
             ?>
 
         </select>
-        <input style="border-radius:50px;padding:5px 10px;background-color:cadetblue;border:1px solid cadetblue;color:white;" type="submit" name="listok" value="Lọc">
+        <input style="border-radius:50px;padding:5px 10px;background-color:#7D26CD;border:1px solid cadetblue;color:white;" type="submit" name="listok" value="Lọc">
     </form>
 
     <div class="frmcontent">
@@ -23,7 +23,7 @@
         <div class=" m-10 ">
 
             <table class="formloai ">
-                <tr style="background-color: teal;color:white;">
+                <tr style="background-color: #7D26CD;color:white;">
                     <th style="border: 1px solid gray;text-align:center ;">id </th>
                     <th style="border: 1px solid gray;text-align:center ;">Tên </th>
                     <th style="border: 1px solid gray;text-align:center ;">Hình</th>

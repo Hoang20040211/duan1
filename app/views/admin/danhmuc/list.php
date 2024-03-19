@@ -6,7 +6,7 @@
 
         <div class="row mb-10 frmdsloai">
             <table style="margin-left: 20px;">
-                <tr style="background-color: teal;color:white;text-align: center;">
+                <tr style="background-color: #7D26CD;color:white;text-align: center;">
 
                     <th style="padding:10px;border: 1px solid gray;text-align: center;">Ảnh</th>
                     <th style="padding:10px;border: 1px solid gray;text-align: center;">Tên danh mục</th>
