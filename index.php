@@ -10,7 +10,6 @@ $err = "";
 include "config.php";
 include "app/views/Client/layout/header.php";
 include "app/views/Client/layout/home.php";
-//include "app/controllers/ClientController.php";
+include "app/controllers/ClientController.php";
 include "app/views/Client/layout/footer.php";
-
 ?>
