@@ -1,4 +1,5 @@
-
+<?php 
+?>
 <main>
         <div class="boxcenter">
             <div class="zek_page_banner zek_position">
@@ -12,14 +13,10 @@
                     style="visibility: visible; animation-duration: 600ms; animation-delay: 500ms; animation-name: fadeIn;">
                     <h1 class="title wow fadeInDown animated animated" data-wow-delay="1000ms" data-wow-duration="600ms"
                         style="visibility: visible; animation-duration: 600ms; animation-delay: 1000ms; animation-name: fadeInDown;">
-                        danh mục sản phẩm</h1>
+                        Kết quả tìm kiếm</h1>
                     <div class="zek_breadcrumbs wow fadeInUp animated animated" data-wow-delay="700ms"
                         data-wow-duration="600ms"
                         style="visibility: visible; animation-duration: 600ms; animation-delay: 700ms; animation-name: fadeInUp;">
-                        <nav aria-label="breadcrumbs" class="rank-math-breadcrumb">
-                            <p><a href="https://demowebvn.com/hitecom">Home</a><span class="separator"> – </span><span
-                                    class="last">danh mục sản phẩm</span></p>
-                        </nav>
                     </div>
                 </div>
             </div>
@@ -28,17 +25,19 @@
         <div class="boxcenter">
         <div class="contac_1">
             <div class="boxcenter">
-                <div class="title_home">
+                <!-- <div class="title_home">
                     <h2>
                         <a href="#">
-                            Các Danh Mục Hiện Có
+                            Các Sản Phẩm Hiện Có
                         </a>
                     </h2>
-                </div>
+                </div> -->
                 
                 <div class="item_home">
                     <div class="row">
-                        <?php  $allDm = loadAllDm();foreach($allDm as $row):
+                        <?php 
+                        $allDm = search($search_input);
+                        foreach($allDm as $row):
                         extract($row);?>
                             <div class="col-md-3 box-item">
                                 <div class="img_item zoom_img">
@@ -47,11 +46,12 @@
                                     </div>
                                 </div>
                                 <div class="text_item mb-3">
-                                    <p class="loai_hang"></p>
-                                    <span><?=$name?></span>
+                                    <p class="loai_hang"><?=$name?></p>
+                                    <p class="gioi_thieu"><?=$mota?></p>
+                                    <span><?=$price?> vnđ</span>
                                 </div>
                                 <div class="item_contac mb-3">
-                                    <a href="index.php?redirect=sptheodanhmuc&id=<?=$id?>">Xem sản phẩm</a>
+                                    <a href="index.php?redirect=ctsp&id=<?=$id?>">Xem chi tiết</a>
                                 </div>
                             </div>
                         <?php endforeach?>
