@@ -67,7 +67,7 @@
                     <ul>
                         <li style=""><a href="index.php">Trang chủ</a></li>
                         <li style=""><a href="index.php?redirect=donhang">Đơn hàng </a></li>
-                        <li style=""><a href="index.php?redirect=dmsp">Sản phẩm</a></li>
+                        <li style=""><a href="index.php?redirect=dmsp">Danh Mục Sản phẩm</a></li>
                         <li style=""><a href="index.php?redirect=tintuc">Tin tức</a></li>
                         <li style=""><a href="index.php?redirect=lienhe">Liên hệ</a></li>
                     </ul>

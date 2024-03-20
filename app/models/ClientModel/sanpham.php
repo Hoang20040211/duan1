@@ -14,7 +14,7 @@ function loadAllSpGucci(){
     LIMIT 4";
     $result = pdo_query($sql);
     return $result;
-}
+}               
 function loadAllSpNike(){
     $sql = "SELECT *, sanpham.name as name_sp FROM sanpham
     WHERE sanpham.iddm = 20
