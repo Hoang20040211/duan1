@@ -8,8 +8,10 @@
 }
 
 .boxcenter {
-    width: 1350px;
-    margin: 0 auto;
+  width: 1350px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif; /* Thay đổi phông chữ */
 }
 
 .seach-home {

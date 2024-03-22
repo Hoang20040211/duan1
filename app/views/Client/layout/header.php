@@ -63,7 +63,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="" id="menu">
+                <div class="" style="" id="menu">
                     <ul>
                         <li style=""><a href="index.php">Trang chủ</a></li>
                         <li style=""><a href="index.php?redirect=donhang">Đơn hàng </a></li>
