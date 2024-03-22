@@ -190,10 +190,7 @@ if (isset($_GET['act'])) {
                 $listsanpham = loadall_sanpham("", 0, $giatien);
                 include "sanpham/list.php";
                 break;
-
                 default:
-           
-
             break;
 
         }

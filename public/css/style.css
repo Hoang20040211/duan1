@@ -23,7 +23,9 @@
     display: flex;
     align-items: center;
 }
-
+.logo{
+  margin-left: -20px;
+}
 .logo img {
     margin-top: 5px;
     width: 110px;
@@ -60,13 +62,11 @@
 }
 
 .carousel-inner img {
-    width: 500px;
-    height: 700px;
+    width: 100px;
+    height: 500px;
 }
 
 #menu {
-    border-top: 1px solid #777;
-    border-bottom: 1px solid #777;
 }
 
 #menu ul {
@@ -106,8 +106,9 @@
 }
 
 .menu_hanggiay img {
+    margin-left: 13px;
     height: 100px;
-    width: 100%;
+    width: 90%;
     border-radius: 10px;
     transition: transform 2s, filter 0.5s ease-in-out;
     transform-origin: center center;
@@ -124,7 +125,7 @@
 
 .menu_hanggiay .item_hanggiay {
     border-radius: 10px;
-    border: 1px solid#000;
+    border: 0px solid#000;
 }
 
 .contac_1 {

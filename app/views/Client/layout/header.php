@@ -16,44 +16,44 @@
             <div class="boxcenter">
                 <div class="logo">
                     <div class="row">
-                        <div style="" class="col-md-2">
+                        <div style="background-color:#222222 " class="col-md-2">
                             <a href="#">
-                                <img  border="5px" style="border-radius:10px; color:white; margin-left:30px" src="public/img/log.png" alt="" >
+                                <img  border="5px" style="border-radius:10px; color:black; margin-left:30px" src="public/img/log.png" alt="" >
                             </a>
                         </div>
-                        <div style="" class="col-md-6 ali_center">
+                        <div style="background-color:#222222" class="col-md-6 ali_center">
                             <form class="seach-home" action="index.php?redirect=search" method="post">
                                 <div class="input-group rounded">
                                     <input type="search" class="form-control rounded" placeholder="Search" name="search_input" aria-label="Search" aria-describedby="search-addon" />
-                                    <span class="input-group-text border-0" id="search-addon">
-                                        <button style="border:none" type="submit" name="search"><i class="bi bi-search"></i></button>
+                                    <span style="background-color:#CC0000; color:white" class="input-group-text border-0" id="search-addon">
+                                        <button style="border:none; background-color:#CC0000;" type="submit" name="search"><i style="color:white" class="bi bi-search"></i></button>
                                     </span>
                                 </div>
                             </form>
                         </div>
 
-                        <div style="" class="col-md-4 ali_center">
+                        <div style="background-color:#222222" class="col-md-4 ali_center">
                             <ul class="login-header">
                                 <li>
-                                    <a href="index.php?redirect=giohang">
+                                    <a style="color:white" href="index.php?redirect=giohang">
                                     <span>
-                                        <i class="bi bi-cart"></i>
+                                        <i style="color:white" class="bi bi-cart"></i>
                                     </span>
                                         Giỏ hàng
                                     </a>
                                 </li>
                                 <div class="login-hd">
                                 <li>
-                                    <a href="index.php?redirect=dangxuat" id="taikhoan">
-                                    <span><i class="bi bi-person-fill"></i></span>
+                                    <a style="color:white" href="index.php?redirect=dangxuat" id="taikhoan">
+                                    <span><i style="color:white" class="bi bi-person-fill"></i></span>
                                         ĐĂNG XUẤT
                                     </a>
-                                    <a href="index.php?redirect=doimatkhau" id="taikhoan">
-                                    <span><i class="bi bi-person-fill"></i></span>
+                                    <a style="color:white" href="index.php?redirect=doimatkhau" id="taikhoan">
+                                    <span><i style="color:white" class="bi bi-person-fill"></i></span>
                                         ĐỔI MẬT KHẨU
                                     </a>
-                                    <a href="app/views/admin/index.php" id="taikhoan">
-                                    <span><i class="bi bi-person-fill"></i></span>
+                                    <a style="color:white" href="app/views/admin/index.php" id="taikhoan">
+                                    <span><i style="color:white" class="bi bi-person-fill"></i></span>
                                         TRUY CẬP CPANEL
                                     </a>
                                                                         

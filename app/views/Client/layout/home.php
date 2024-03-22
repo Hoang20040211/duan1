@@ -1,5 +1,5 @@
 
-<div class="menu_hanggiay">
+<div style="background-color:#880000;width:1385px;margin-left:-20px; " class="menu_hanggiay">
     <div class="row">
         <div class="col-md-2 ">
             <div class="item_hanggiay">
