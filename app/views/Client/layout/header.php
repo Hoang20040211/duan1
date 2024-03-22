@@ -11,28 +11,29 @@
         <link rel="stylesheet" href="public/css/style.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        
     </head>
-    <header>
+    <header style="background-color:#A9A9A9">
             <div class="boxcenter">
                 <div class="logo">
                     <div class="row">
-                        <div style="background-color:#222222 " class="col-md-2">
+                        <div style="background-color:#A9A9A9;" class="col-md-2">
                             <a href="#">
-                                <img  border="5px" style="border-radius:10px; color:black; margin-left:30px" src="public/img/log.png" alt="" >
+                                <img style="border-radius:10px; color:black;margin-top:8px; margin-left:30px;width:100px;height:50px" src="public/img/log.png" alt="" >
                             </a>
                         </div>
-                        <div style="background-color:#222222" class="col-md-6 ali_center">
+                        <div style="background-color:#A9A9A9" class="col-md-6 ali_center">
                             <form class="seach-home" action="index.php?redirect=search" method="post">
                                 <div class="input-group rounded">
                                     <input type="search" class="form-control rounded" placeholder="Search" name="search_input" aria-label="Search" aria-describedby="search-addon" />
-                                    <span style="background-color:#CC0000; color:white" class="input-group-text border-0" id="search-addon">
-                                        <button style="border:none; background-color:#CC0000;" type="submit" name="search"><i style="color:white" class="bi bi-search"></i></button>
+                                    <span style="background-color:#828282; color:white" class="input-group-text border-0" id="search-addon">
+                                        <button style="border:none; background-color:#828282;" type="submit" name="search"><i style="color:white" class="bi bi-search"></i></button>
                                     </span>
                                 </div>
                             </form>
                         </div>
 
-                        <div style="background-color:#222222" class="col-md-4 ali_center">
+                        <div style="background-color:#A9A9A9" class="col-md-4 ali_center">
                             <ul class="login-header">
                                 <li>
                                     <a style="color:white" href="index.php?redirect=giohang">
@@ -63,7 +64,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="" style="" id="menu">
+                <div class="" style="background-color:#C0C0C0; width: 1400px;margin-left:-20px;position: static;z-index: 1000;transition: top 0.3s;" id="menu">
                     <ul>
                         <li style=""><a href="index.php">Trang chủ</a></li>
                         <li style=""><a href="index.php?redirect=donhang">Đơn hàng </a></li>

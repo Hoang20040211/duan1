@@ -15,12 +15,12 @@
 <body>
   <div class="container-scroller">
     <div class="container-fluid page-body-wrapper">
-      <nav style="background-image: linear-gradient(to right, #551A8B, #A020F0);background-color: #1D2B36;padding-bottom: 400px;" class="sidebar" id="sidebar">
+      <nav style="width:285px; background-image: linear-gradient(to right, #FF8C00, #FF8C00);background-color: #1D2B36;padding-bottom: 400px;" class="sidebar" id="sidebar">
         <ul  class="nav">
           <li style="display: flex;gap: 20px;padding: 20px 50px;align-items: center;" class=" nav-profile">
            
               <div class="nav-profile-image">
-                <img width="100px" border="5px" style="margin-left: -20px;border-radius:10px" margin src="../../../public/img/log.png" alt="profile">
+                <img width="95px" style="margin-left: -20px;border-radius:10px" margin src="../../../public/img/log.png" alt="profile">
               </div>
               <div class="nav-profile-text d-flex flex-column">
                 <span class="text-white font-weight-bold mb-2">Nhóm 5</span>
@@ -28,54 +28,54 @@
               <i class="mdi mdi-bookmark-check text-success nav-profile-badge"></i>
            
           </li>
-          <li style="background-image: linear-gradient(to right, #551A8B, #A020F0);background-color: #1D2B36;margin-top: 5%;" class="nav-item">
+          <li style="background-image: linear-gradient(to right, #FF8C00, #FF8C00);background-color: #1D2B36;margin-top: 5%;" class="nav-item">
 
             <a class="nav-link" href="index.php?act=home">
               <span class="menu-title text-white">Bảng điều khiển</span>
               <i style="color:white;margin-left: 17%;" class="fa-solid fa-house"></i>
             </a>
           </li>
-          <li style="background-image: linear-gradient(to right, #551A8B, #A020F0);background-color: #1D2B36;" class="nav-item">
+          <li style="background-image: linear-gradient(to right, #FF8C00, #FF8C00);background-color: #1D2B36;" class="nav-item">
 
             <a class="nav-link" href="index.php?act=listdm">
               <span class="menu-title text-white">Danh mục</span>
               <i style="color:white;margin-left: 38%;" class="fa-solid fa-list"></i>
             </a>
           </li>
-          <li style="background-image: linear-gradient(to right, #551A8B, #A020F0);background-color: #1D2B36;" class="nav-item">
+          <li style="background-image: linear-gradient(to right, #FF8C00, #FF8C00);background-color: #1D2B36;" class="nav-item">
             <a class="nav-link" href="index.php?act=listsp">
               <span class="menu-title text-white">Sản phẩm</span>
               <i style="color:white;margin-left: 38%;" class="fa-solid fa-folder"></i>
             </a>
           </li>
-          <li style="background-image: linear-gradient(to right, #551A8B, #A020F0);background-color: #1D2B36;" class="nav-item">
+          <li style="background-image: linear-gradient(to right, #FF8C00, #FF8C00);background-color: #1D2B36;" class="nav-item">
             <a class="nav-link" href="index.php?act=dskh">
               <span class="menu-title text-white">Khách hàng</span>
               <i style="color:white;margin-left: 33%;" class="fa-solid fa-person"></i>
             </a>
           </li>
-          <li style="background-image: linear-gradient(to right, #551A8B, #A020F0);background-color: #1D2B36;" class="nav-item">
+          <li style="background-image: linear-gradient(to right, #FF8C00, #FF8C00);background-color: #1D2B36;" class="nav-item">
             <a class="nav-link" href="index.php?act=dsbl">
               <span class="menu-title text-white">Bình luận</span>
               <i style="color:white;margin-left: 37%;" class="fa-solid fa-users"></i>
             </a>
           </li>
 
-          <li style="background-image: linear-gradient(to right, #551A8B, #A020F0);background-color: #1D2B36;" class="nav-item">
+          <li style="background-image: linear-gradient(to right, #FF8C00, #FF8C00);background-color: #1D2B36;" class="nav-item">
             <a class="nav-link" href=" index.php?act=listbill">
               <span class="menu-title text-white">Đơn hàng</span>
               <i style="color:white;margin-left: 35%;" class="fa-solid fa-cart-shopping"></i>
             </a>
             
           </li>
-          <li style="background-image: linear-gradient(to right, #551A8B, #A020F0);background-color: #1D2B36;" class="nav-item">
+          <li style="background-image: linear-gradient(to right, #FF8C00, #FF8C00);background-color: #1D2B36;" class="nav-item">
             <a class="nav-link" href="index.php?act=thongke">
               <span class="menu-title text-white">Thống kê</span>
               <i style="color:white;margin-left: 38%;" class="fa-solid fa-layer-group"></i>
             </a>
           </li>
 
-          <li style="background-image: linear-gradient(to right, #551A8B, #A020F0);background-color: #1D2B36;" class="nav-item">
+          <li style="background-image: linear-gradient(to right, #FF8C00, #FF8C00);background-color: #1D2B36;" class="nav-item">
             <a class="nav-link" href="../../../index.php">
               <span class="menu-title text-white">Thoát</span>
               <i style="color:white;margin-left: 47%;" class="fa-solid fa-right-to-bracket"></i>

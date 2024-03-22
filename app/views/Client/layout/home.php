@@ -1,5 +1,5 @@
 
-<div style="background-color:#880000;width:1385px;margin-left:-20px; " class="menu_hanggiay">
+<div style="background-color:#A9A9A9;width:1200px;margin-left:50px;padding:20px " class="menu_hanggiay">
     <div class="row">
         <div class="col-md-2 ">
             <div class="item_hanggiay">
@@ -48,7 +48,7 @@
 </div>
 </div>
 </header>
-<main>
+<main style="background-color:#A9A9A9"> 
 <div class="banner_main">
 <div id="carouselExampleIndicators" class="carousel slide">
     <div class="carousel-indicators">
@@ -81,7 +81,7 @@
 <div class="boxcenter">
     <div class="title_home">
         <h2>
-            <a href="index.php?redirect=sptheodanhmuc&id=19">
+            <a style="" href="index.php?redirect=sptheodanhmuc&id=19">
                 ADIDAS
             </a>
         </h2>

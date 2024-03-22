@@ -26,7 +26,8 @@
     align-items: center;
 }
 .logo{
-  margin-left: -20px;
+  width: 1377px;
+  margin-left: -8px;
 }
 .logo img {
     margin-top: 5px;
@@ -40,7 +41,7 @@
 }
 
 .login-header li a {
-    margin-left: -10px;
+    margin-left: -40px;
     font-weight: 700;
     color: #1c1c1c;
     display: block;
@@ -49,11 +50,11 @@
 
 }
 .login-hd{
-  margin-left: 100px;
+  margin-left: 130px;
 }
 
 .login-header li a:hover {
-    color: rgb(65, 113, 203);
+    color: rgb(20, 77, 185);
 }
 
 .login-header {
@@ -67,10 +68,6 @@
     width: 100px;
     height: 500px;
 }
-
-#menu {
-}
-
 #menu ul {
     padding: 0;
     list-style-type: none;
@@ -94,7 +91,7 @@
 }
 
 #menu ul li a:hover {
-    background: #050b0c;
+    background: #898989;
     color: #F1F1F1;
     transition: transform 1s;
 }
@@ -173,7 +170,7 @@
     line-height: 13px;
     font-weight: 400;
     text-transform: uppercase;
-    color: #bfbfbf;
+    color: #ffffff;
     margin-top: 10px;
     letter-spacing: 1px;
     margin-bottom: 5px;
@@ -291,12 +288,12 @@
 .img_item img {
     transition: transform 2s, filter 1.5s ease-in-out;
     transform-origin: center center;
-    filter: brightness(50%);
+    filter: brightness(90%);
 }
 
 /* The Transformation */
 .box-item:hover img {
-    filter: brightness(100%);
+    filter: brightness(80%);
 }
 
 .contac_2 {
@@ -340,7 +337,7 @@
     line-height: 25px;
     letter-spacing: 0.52px;
     margin-bottom: 0;
-    color: #666;
+    color: #ffffff;
     text-align: center;
     word-wrap: break-word;
 }
