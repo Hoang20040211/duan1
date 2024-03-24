@@ -1,8 +1,8 @@
 <?php 
 function addtaikhoan($user,$pass,$email,$address,$tel,$role){
     $sql = "INSERT INTO taikhoan(user,pass,email,address,tel,role)
-     VALUES ('$user','$pass','$email','$address','$tel','$role')";
-     pdo_execute($sql);
+    VALUES ('$user','$pass','$email','$address','$tel','$role')";
+    pdo_execute($sql);
 }
 function dangnhap($user, $pass){
     $sql = "SELECT * FROM taikhoan WHERE user = '$user' AND pass = '$pass'";
