@@ -37,16 +37,16 @@
 #taikhoan{
     display: inline-block;
     padding: 5px 10px;
-    background-color: #313131;
+    background-color: #195380;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 2px;
     text-decoration: none;
     font-size: 12px;
     transition: background-color 0.3s ease;
 }
 #taikhoan:hover {
-    background-color: #2259ac;
+    background-color: #5277b0;
 }
 .login-header li {
     list-style: none;
@@ -1217,7 +1217,7 @@ opacity: 1;
         height: 100%;
     }
 }
-.buttons {
+/* .buttons {
   display: grid;
   grid-template-columns:auto auto ;
   grid-gap: 45px;
@@ -1243,5 +1243,64 @@ opacity: 1;
 
 .button span {
   margin-right: 5px;
+} */
+.dropdown {
+  width: 160px;
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  text-align: center;
+  width: 150px;
+  height: 38px;
+  background-color: #5d9321;
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Thêm hiệu ứng hover */
+}
+
+/* Thêm hiệu ứng hover khi di chuột vào nút drop-down */
+.dropbtn:hover {
+  background-color: #215d0a;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #777777;
+  min-width: 190px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 5px; /* Thêm góc bo cho menu */
+  padding: 5px 0; /* Thêm khoảng cách giữa các mục trong menu */
+}
+
+.dropdown-content a {
+  color: rgb(21, 64, 14);
+  padding: 5px 30px;
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.3s ease; /* Thêm hiệu ứng hover */
+}
+
+/* Thêm hiệu ứng hover khi di chuột vào các mục trong menu */
+#tk{
+  margin-left: 0px;
+}
+#tk:hover{
+  border-radius: 2px;
+  background-color: #143f18;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #185206;
 }
 
