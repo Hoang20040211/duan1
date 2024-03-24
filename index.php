@@ -5,7 +5,7 @@ $err = "";
 include "app/models/clientModel/sanpham.php";
 include "app/models/clientModel/danhmuc.php";
 // include "app/models/clientModel/binhluan.php";
-// include "app/models/clientModel/taikhoan.php";
+include "app/models/clientModel/taikhoan.php";
 
 include "config.php";
 include "app/views/Client/layout/header.php";

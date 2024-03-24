@@ -1,6 +1,6 @@
 
 
-
+<?php ob_start();?>
 <!DOCTYPE html>
     <html lang="en">
 
@@ -45,6 +45,15 @@
                                 </li>
                                 <div class="login-hd">
                                 <li>
+                                    <?php
+                                    // echo $_SESSION['user'];
+                                    // echo $_SESSION['role'];
+                                    if(empty($_SESSION['user'])){?>
+                                    <a href="index.php?redirect=dangnhap" id="taikhoan">
+                                        <span><i class="bi bi-person-fill"></i></span>
+                                        đăng nhập
+                                    </a>
+                                    <?php }else{?>
                                     <a style="color:white" href="index.php?redirect=dangxuat" id="taikhoan">
                                     <span><i style="color:white" class="bi bi-person-fill"></i></span>
                                         ĐĂNG XUẤT
@@ -53,10 +62,13 @@
                                     <span><i style="color:white" class="bi bi-person-fill"></i></span>
                                         ĐỔI MẬT KHẨU
                                     </a>
+                                    <?php } ?>
+                                    <?php if(isset($_SESSION['role']) && $_SESSION['role'] == 1){?>
                                     <a style="color:white" href="app/views/admin/index.php" id="taikhoan">
                                     <span><i style="color:white" class="bi bi-person-fill"></i></span>
                                         TRUY CẬP CPANEL
                                     </a>
+                                    <?php } ?>
                                                                         
                                 </li>
                                 </div>

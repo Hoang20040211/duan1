@@ -2,7 +2,7 @@
   $idsp = $_GET['id'];
   $ctsp = chiTietSanPham($idsp);
   foreach($ctsp as $row) :
-    extract($row)?>
+  extract($row)?>
   <main>
     <div class="boxcenter">
       <section class="py-5 mt-4">
@@ -58,7 +58,6 @@
                   <span class="h5"><?=$price?> vnđ</span>
                   <span class="text-muted">/per box</span>
                 </div>
-
                 <p>
                   <?=$mota?>
                 </p>
@@ -105,7 +104,7 @@
                   <input type="hidden" name="price" value="<?=$price?>">
                   <input type="hidden" name="ngaydathang" value="<?php echo date("Y-m-d") ?>">
                   <?php
-                  $tt = thongtin();
+                  $tt = thongtin(); 
                   if(isset($tt)){
                   foreach($tt as $row):
                   extract($row);

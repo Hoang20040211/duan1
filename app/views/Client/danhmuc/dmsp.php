@@ -38,8 +38,9 @@
                 
                 <div class="item_home">
                     <div class="row">
-                        <?php  $allDm = loadAllDm();foreach($allDm as $row):
-                        extract($row);?>
+                        <?php   $allDm = loadAllDm();
+                                foreach($allDm as $row):
+                                extract($row);?>
                             <div class="col-md-3 box-item">
                                 <div class="img_item zoom_img">
                                     <div>
