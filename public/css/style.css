@@ -97,14 +97,14 @@
 
 #menu ul li a {
     text-decoration: none;
-    color: #000;
+    color: #ffffff;
     display: block;
     font-size: 20px;
     padding: 0 20px;
 }
 
 #menu ul li a:hover {
-    background: #898989;
+    background: #536878;
     color: #F1F1F1;
     transition: transform 1s;
 }
@@ -183,7 +183,7 @@
     line-height: 13px;
     font-weight: 400;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #000000;
     margin-top: 10px;
     letter-spacing: 1px;
     margin-bottom: 5px;
@@ -350,7 +350,7 @@
     line-height: 25px;
     letter-spacing: 0.52px;
     margin-bottom: 0;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     word-wrap: break-word;
 }
@@ -1293,7 +1293,7 @@ opacity: 1;
 }
 #tk:hover{
   border-radius: 2px;
-  background-color: #143f18;
+  background-color: #25662b;
 }
 
 .dropdown:hover .dropdown-content {
