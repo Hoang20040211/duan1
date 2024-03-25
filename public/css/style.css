@@ -1255,7 +1255,7 @@ opacity: 1;
   width: 150px;
   height: 38px;
   background-color: #5d9321;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   padding: 10px 20px;
   border: none;
   border-radius: 2px;
@@ -1271,7 +1271,7 @@ opacity: 1;
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #ffffff;
+  background-color: #8e8e8e;
   min-width: 190px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
