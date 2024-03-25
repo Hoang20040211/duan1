@@ -56,7 +56,7 @@
                                     
                                     <?php }else{?>
                                     <div class="dropdown">
-                                    <button class="dropbtn">Tài khoản </button>
+                                    <button class="dropbtn">﹀ Tài khoản </button>
                                     <div class="dropdown-content">
                                     <a style="color:white" href="index.php?redirect=dangxuat" class="button" id="tk">
                                     <span><i style="color:white" class="bi bi-person-fill"></i></span>
