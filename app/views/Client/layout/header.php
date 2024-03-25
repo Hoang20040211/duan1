@@ -36,9 +36,9 @@
                         <div style="background-color:#E4E6EB" class="col-md-4 ali_center">
                             <ul class="login-header">
                                 <li>
-                                    <a style="color:white" href="index.php?redirect=giohang">
+                                    <a style="color:black" href="index.php?redirect=giohang">
                                     <span>
-                                        <i style="color:white" class="bi bi-cart"></i>
+                                        <i style="color:black" class="bi bi-cart"></i>
                                     </span>
                                         Giỏ hàng
                                     </a>

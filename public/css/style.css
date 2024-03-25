@@ -1255,7 +1255,7 @@ opacity: 1;
   width: 150px;
   height: 38px;
   background-color: #5d9321;
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 10px 20px;
   border: none;
   border-radius: 2px;
@@ -1271,7 +1271,7 @@ opacity: 1;
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #a6a6a6;
+  background-color: #ffffff;
   min-width: 190px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -1293,7 +1293,7 @@ opacity: 1;
 }
 #tk:hover{
   border-radius: 2px;
-  background-color: #25662b;
+  background-color: #224c26;
 }
 
 .dropdown:hover .dropdown-content {
