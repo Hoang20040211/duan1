@@ -190,6 +190,18 @@ if (isset($_GET['act'])) {
                 $listsanpham = loadall_sanpham("", 0, $giatien);
                 include "sanpham/list.php";
                 break;
+                case 'xoabl':
+                    if (isset($_GET['id']) && ($_GET['id'] > 0)) {
+                        delete_binhluan($_GET['id']);
+                    }
+        
+                    $listbinhluan = loadall_binhluan(0);
+                    $listbinhluan = loadall_binhluan2();
+                    include "binhluan/list.php";
+                    break;
+                    case 'dsbl':
+                        include "binhluan/list.php";
+                        break;
                 default:
             break;
 

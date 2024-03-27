@@ -96,7 +96,22 @@ if(isset($_GET['redirect'])){
             }
             include ("app/views/client/sanpham/timkiem.php");
             break;
-        
+         case 'addbinhluan':
+            if(isset($_POST['binhluan'])){
+                    if(isset($_SESSION['user'])){
+                    $noidung = $_POST['noidung'];
+                    $ngaybinhluan = $_POST['ngaybinhluan'];
+                    $iduser = $_POST['iduser'];
+                    $idpro = $_POST['idpro'];
+                    addbinhluan($noidung,$iduser,$idpro,$ngaybinhluan);
+                    header("location: index.php?redirect=ctsp&id=$idpro");
+                    }else{
+                        // echo '<script>alert("Chưa đăng nhập")</script>';
+                        echo '<script>window.location.href="index.php?redirect=dangnhap"</script>';
+    
+                    }
+                }
+                break;
 
         default:
             include "app/views/client/layout/home.php";
