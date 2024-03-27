@@ -6,7 +6,7 @@
 
         <div class="row mb-10 frmdsloai">
             <table class="formloai">
-                <tr style="background-color: teal;color:white;">
+                <tr style="background-color: #555555;color:white;">
                     <th style="padding:10px;">NỘI DUNG BÌNH LUẬN</th>
                     <th>TÀI KHOẢN</th>
                     <th>SẢN PHẨM</th>
