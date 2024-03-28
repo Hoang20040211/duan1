@@ -190,6 +190,46 @@ if (isset($_GET['act'])) {
                 $listsanpham = loadall_sanpham("", 0, $giatien);
                 include "sanpham/list.php";
                 break;
+                case 'updatett':
+                    include "bill/updatett.php";
+                    if(isset($_POST['capnhat'])){
+                        $status = $_POST['bill_status'];
+                        $id = $_GET['id'];
+                        updatett($id,$status);
+                        echo '<script>window.location.href="index.php?act=listbill"</script>';
+                    }      
+                    break;
+        
+                case 'suatk':
+                    if (isset($_GET['id']) && ($_GET['id'] > 0)) {
+                        $tk = loadone_taikhoan($_GET['id']);
+                    }
+        
+                    include "taikhoan/update.php";
+                    break;
+        
+        
+                case 'updatetk':
+                    if (isset($_POST['capnhattk']) && ($_POST['capnhattk'])) {
+                        $role = $_POST['role'];
+                        $id = $_POST['id'];
+                        update_taikhoan($id, $role);
+                        $thongbao = "Cập nhật thành công";
+                    }
+                    $listtaikhoan = loadall_taikhoan();
+                    include "taikhoan/list.php";
+                    break;
+        
+                case 'xoatk':
+                    if (isset($_GET['id']) && ($_GET['id'] > 1)) {
+                        delete_taikhoan($_GET['id']);
+                    } else {
+                        echo '<script>alert("Không thể xóa tài khoản quản trị !")</script>';
+                    }
+        
+                    $listtaikhoan = loadall_taikhoan();
+                    include "taikhoan/list.php";
+                    break;
                 case 'xoabl':
                     if (isset($_GET['id']) && ($_GET['id'] > 0)) {
                         delete_binhluan($_GET['id']);
@@ -199,6 +239,12 @@ if (isset($_GET['act'])) {
                     $listbinhluan = loadall_binhluan2();
                     include "binhluan/list.php";
                     break;
+                    case 'dskh':
+
+
+                        $listtaikhoan = loadall_taikhoan();
+                        include "taikhoan/list.php";
+                        break;
                     case 'dsbl':
                         include "binhluan/list.php";
                         break;
