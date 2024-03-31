@@ -7,7 +7,7 @@
 
         <div class="row mb-10 frmdsloai">
             <table class="formloai">
-                <tr style="background-color: teal;color:white;">
+                <tr style="background-color: #555555;color:white;">
                    
                     <th style="padding:10px;border: 1px solid gray;text-align:center ;">Mã tài khoản</th>
                     <th style="border: 1px solid gray;text-align:center ;">Tên đăng nhập</th>

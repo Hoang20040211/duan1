@@ -18,7 +18,7 @@
 foreach($tt as $row):extract($row);?>
 <div class="form-outline md-4">
     <input type="text" required name="receive_name" id="form3Example3" class="form-control form-control-lg"
-    value="<?=$user?>" />
+value="<?=$user?>" />
     <label class="form-label" for="form3Example3">tên người nhận</label>
 </div>
 <div class="form-outline md-4">

@@ -112,6 +112,83 @@ if(isset($_GET['redirect'])){
                     }
                 }
                 break;
+        case 'giohang':
+            include ("app/views/client/sanpham/giohang.php");
+            break;
+        case 'themgiohang':
+            if (isset($_POST['themgiohang'])) { 
+                if (isset($_SESSION['iduser'])) {
+                    $soluong = $_POST['soluong'];
+                    // $size = $_POST['size'];
+                    $iduser = $_POST['iduser'];
+                    $idpro = $_POST['idpro']; // Assuming idpro is a unique identifier for the product
+            
+                    if ($_POST['soluong'] == "") {
+                        $soluong = 1;
+                    } else {
+                        $soluong = $_POST['soluong'];
+                    }
+            
+                    $price = $_POST['price'];
+                    $thanhtien = $soluong * $price;
+                    $gioHang = gioHang();
+            
+                    // Check if $gioHang contains any items with the same idpro
+                    $found = false;
+                    foreach ($gioHang as $item) {
+                        if ($idpro == $item['idpro']) {
+                            $found = true;
+                            updateGioHang($soluong, $idpro, $iduser, $thanhtien);
+                        }
+                    }
+            
+                    // If the item is not found in the cart, add it
+                    if (!$found) {
+                        addgiohang($iduser, $idpro, $soluong, $thanhtien);
+                    }
+            
+                    include ("app/views/client/sanpham/giohang.php");
+                } else {
+                    // echo '<script>alert("Chưa đăng nhập")</script>';
+                    echo '<script>window.location.href="index.php?redirect=dangnhap"</script>';
+                }
+            }
+            
+            break;
+        case 'xoagiohang':
+            include ("app/views/client/sanpham/xoagiohang.php");
+            break;
+        case 'huydonhang':
+            include ("app/views/client/sanpham/huydonhang.php");
+            break;
+        case 'thanhtoan':
+            if(isset($_POST['thanhtoan'])){
+                if(isset($_SESSION['user'])){
+                $idpro = $_POST['idpro'];
+                // print_r($idpro);
+                $iduser = $_POST['iduser'];
+                $soluong = $_POST['soluong'];
+                // print_r($soluong);
+                $tongtien = $_POST['tongtien'];
+                $ngaydathang = $_POST['ngaydathang'];
+                $address = $_POST['receive_address'];
+                $tel = $_POST['receive_tel'];
+                $user = $_POST['receive_name'];
+                $bill_status = $_POST['bill_status'];
+                muahang($iduser,$ngaydathang,$tongtien,$bill_status,$address,$tel,$user);
+                foreach($idpro as $key => $value){
+                    $getid = getId();
+                        foreach($getid as $row):
+                            extract($row);
+                        addBillCt($value,$soluong[$key],$iduser,$idBillNewest);
+                        endforeach;
+                    }
+                echo '<script>alert("Thanh toán thành công")</script>';
+                echo '<script>window.location.href="index.php?redirect=donhang"</script>';
+                }
+            }
+            include ("app/views/client/sanpham/giohang.php");
+            break;
 
         default:
             include "app/views/client/layout/home.php";

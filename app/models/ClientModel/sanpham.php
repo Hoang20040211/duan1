@@ -35,16 +35,16 @@ function search($search_input){
     $reuslt = pdo_query($sql);
     return $reuslt;
 }
-function addgiohang($iduser,$idpro,$size,$soluong,$thanhtien){
-    $sql = "INSERT INTO cart(iduser, idpro, size, soluong, thanhtien)
-     VALUES ('$iduser','$idpro','$size','$soluong','$thanhtien')";
+function addgiohang($iduser,$idpro,$soluong,$thanhtien){
+    $sql = "INSERT INTO cart(iduser, idpro, soluong, thanhtien)
+     VALUES ('$iduser','$idpro','$soluong','$thanhtien')";
      pdo_execute($sql);
 }
 function gioHang(){
     if(isset($_SESSION['iduser'])){
     $iduser = $_SESSION['iduser'];
     }
-    $sql = "SELECT tel,address,user,cart.id as idcart,sanpham.name as namesp,sanpham.id as idpro ,sanpham.img as imgsp, danhmuc.name as namedm, size,soluong,thanhtien FROM cart
+    $sql = "SELECT tel,address,user,cart.id as idcart,sanpham.name as namesp,sanpham.id as idpro ,sanpham.img as imgsp, danhmuc.name as namedm,soluong,thanhtien FROM cart
     JOIN sanpham ON sanpham.id = cart.idpro
     JOIN danhmuc ON danhmuc.id = sanpham.iddm
     JOIN taikhoan ON taikhoan.id = cart.iduser
