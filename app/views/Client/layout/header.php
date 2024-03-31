@@ -58,18 +58,18 @@
                                     <div class="dropdown">
                                     <button class="dropbtn">﹀ Tài khoản </button>
                                     <div class="dropdown-content">
-                                    <a style="color:white" href="index.php?redirect=dangxuat" class="button" id="tk">
-                                    <span><i style="color:white" class="bi bi-person-fill"></i></span>
+                                    <a style="color:black" href="index.php?redirect=dangxuat" class="button" id="tk">
+                                    <span><i style="color:black" class="bi bi-person-fill"></i></span>
                                         ĐĂNG XUẤT
                                     </a>
-                                    <a style="color:white" href="index.php?redirect=doimatkhau" class="button" id="tk">
-                                    <span><i style="color:white" class="bi bi-person-fill"></i></span>
+                                    <a style="color:black" href="index.php?redirect=doimatkhau" class="button" id="tk">
+                                    <span><i style="color:black" class="bi bi-person-fill"></i></span>
                                         ĐỔI MẬT KHẨU
                                     </a>
                                     <?php } ?>
                                     <?php if(isset($_SESSION['role']) && $_SESSION['role'] == 1){?>
-                                    <a style="color:white" href="app/views/admin/index.php" class="button" id="tk">
-                                    <span><i style="color:white" class="bi bi-person-fill"></i></span>
+                                    <a style="color:black" href="app/views/admin/index.php" class="button" id="tk">
+                                    <span><i style="color:black" class="bi bi-person-fill"></i></span>
                                         TRUY CẬP CPANEL
                                     </a>
                                     </div>
