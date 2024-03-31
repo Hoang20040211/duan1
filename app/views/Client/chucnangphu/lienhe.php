@@ -55,7 +55,7 @@
                                     <input type="text" name="hotline" id="" style="width: 100%; height: 100px;"><br>
                                 </div>
                                 <div class=" mb">
-                                    <input type="submit" value="Gửi cho DHA SHOP"><br>
+                                    <input type="submit" value="Gửi cho DHD SHOP"><br>
                                 </div>
                             </form>
                         </div>
