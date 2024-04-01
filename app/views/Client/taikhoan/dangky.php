@@ -13,19 +13,19 @@
                     <div class="form-outline mb-4">
                     <label class="form-label" for="form3Example3">Tên đăng nhập</label>
                       <input type="text" name="user" id="form3Example3" class="form-control form-control-lg"
-                        placeholder="UserName" />
+                        placeholder="Nhập tên" />
                       
                     </div>
                     <div class="form-outline mb-4">
                     <label class="form-label" for="form3Example3">Số điện thoại</label>
                       <input type="number" name="tel" id="form3Example3" class="form-control form-control-lg"
-                        placeholder="Phone" />
+                        placeholder="Nhập số điện thoại" />
                       
                     </div>
                     <div class="form-outline mb-4">
                     <label class="form-label" for="form3Example3">Địa chỉ</label>
                       <input type="text" name="address" id="form3Example3" class="form-control form-control-lg"
-                        placeholder="Address" />
+                        placeholder="Nhập địa chỉ" />
                       
                     </div>
                     <div class="form-outline mb-4">
@@ -37,7 +37,7 @@
                     <div class="form-outline mb-4">
                     <label class="form-label" for="form3Example3">Mật khẩu</label>
                       <input type="password" name="pass" id="form3Example3" class="form-control form-control-lg"
-                        placeholder="Enter password" />
+                        placeholder="Nhập mật khẩu" />
                       
                       <input type="hidden" name="role" value="0" id=""><br>
                     </div>
@@ -45,7 +45,7 @@
                     <div class="form-outline mb-3">
                     <label class="form-label" for="form3Example4">Xác nhận mật khẩu</label>
                       <input type="password" name="cfpass" id="form3Example4" class="form-control form-control-lg"
-                        placeholder="Enter password" />
+                        placeholder="Xác nhận" />
                     </div>
                     <div class="text-center text-lg-start mt-4 pt-2">
                       <button type="submit" name="dangky" class="btn btn-primary btn-lg"

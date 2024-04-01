@@ -22,7 +22,7 @@
                 </div>
                 
                 <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
-                <h9 style="text-transform: uppercase; text-align:center ;font-weight: bolder; font-size: 19px; ">chào mừng bạn đến với DHA Shop!</h9>
+                <h9 style="text-transform: uppercase; text-align:center ;font-weight: bolder; font-size: 19px; ">chào mừng bạn đến với DHD Shop!</h9>
                 <br>
                 <br>
                   <form method="post">
@@ -50,14 +50,14 @@
                     <div class="form-outline mb-4">
                     <label class="form-label" for="form3Example3">Tên đăng nhập</label>
                       <input type="text" name="user" id="form3Example3" class="form-control form-control-lg"
-                        placeholder="UserName" />
+                        placeholder="Nhập tên" />
                     </div>
           
                     <!-- Password input -->
                     <div class="form-outline mb-3">
                     <label class="form-label" for="form3Example4">Mật khẩu</label>
                       <input type="password" name="pass" id="form3Example4" class="form-control form-control-lg"
-                        placeholder="Enter password" />
+                        placeholder="Nhập mật khẩu" />
                     </div>
                     
                     <div class="d-flex justify-content-between align-items-center">
