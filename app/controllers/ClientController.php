@@ -189,6 +189,20 @@ if(isset($_GET['redirect'])){
             }
             include ("app/views/client/sanpham/giohang.php");
             break;
+        case 'thongtin':
+            if(isset($_SESSION['user'])){
+                if(isset($_POST['muangay'])){
+                    // $tel = $_POST['receive_tel'];
+                    // $user = $_POST['iduser'];
+                    // $bill_status = $_POST['bill_status'];
+                    // muahang($iduser,$ngaydathang,$tongtien,$bill_status,$address,$tel,$user);
+                    include "app/views/client/taikhoan/thongtin.php";
+                }
+            }else{
+                // echo '<script>alert("Chưa đăng nhập")</script>';
+                echo '<script>window.location.href="index.php?redirect=dangnhap"</script>';
+            }
+        break;
 
         default:
             include "app/views/client/layout/home.php";
