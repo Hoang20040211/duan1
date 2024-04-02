@@ -161,6 +161,21 @@ if(isset($_GET['redirect'])){
         case 'huydonhang':
             include ("app/views/client/sanpham/huydonhang.php");
             break;
+            case 'thongtin':
+                if(isset($_SESSION['user'])){
+                    if(isset($_POST['muangay'])){
+                        // $tel = $_POST['receive_tel'];
+                        // $user = $_POST['iduser'];
+                        // $bill_status = $_POST['bill_status'];
+                        // muahang($iduser,$ngaydathang,$tongtien,$bill_status,$address,$tel,$user);
+                        include "app/views/client/taikhoan/thongtin.php";
+                    }
+                }else{
+                    // echo '<script>alert("Chưa đăng nhập")</script>';
+                    echo '<script>window.location.href="index.php?redirect=dangnhap"</script>';
+                }
+            break;
+
         case 'thanhtoan':
             if(isset($_POST['thanhtoan'])){
                 if(isset($_SESSION['user'])){
@@ -189,10 +204,43 @@ if(isset($_GET['redirect'])){
             }
             include ("app/views/client/sanpham/giohang.php");
             break;
+            
 
         default:
             include "app/views/client/layout/home.php";
-            break;
+            break; case 'donhang':
+                include ("app/views/client/sanpham/donhangcuatoi.php");
+                break;
+            case 'billct':
+                include ("app/views/client/sanpham/billct.php");
+                break;
+            case 'update_nhanhang':
+                $idbill = $_GET['id'];
+                update_nhanhang($idbill);
+                break;
+            case 'addbinhluan':
+                if(isset($_POST['binhluan'])){
+                    if(isset($_SESSION['user'])){
+                    $noidung = $_POST['noidung'];
+                    $ngaybinhluan = $_POST['ngaybinhluan'];
+                    $iduser = $_POST['iduser'];
+                    $idpro = $_POST['idpro'];
+                    addbinhluan($noidung,$iduser,$idpro,$ngaybinhluan);
+                    header("location: index.php?redirect=ctsp&id=$idpro");
+                    }else{
+                        // echo '<script>alert("Chưa đăng nhập")</script>';
+                        echo '<script>window.location.href="index.php?redirect=dangnhap"</script>';
+    
+                    }
+                }
+                break;
+            case 'search':
+                if(isset($_POST['search'])){
+                    $search_input = $_POST['search_input'];
+                    search($search_input);
+                }
+                include ("app/views/client/sanpham/timkiem.php");
+                break;
     }
     }else{
         include "app/views/client/layout/home.php";
