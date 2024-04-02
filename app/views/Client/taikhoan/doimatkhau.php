@@ -11,7 +11,7 @@
           
                     <!-- Email input -->
                     <div class="form-outline mb-4">
-                    <label class="form-label" for="form3Example4">Xác nhận mật khẩu</label>
+                    <label class="form-label" for="form3Example4">Nhập mật khẩu mới</label>
                       <input type="text" name="pass" id="form3Example3" class="form-control form-control-lg"
                         placeholder="Mật khẩu mới" />
                       
