@@ -13,7 +13,7 @@
     <input type="hidden" name="soluong[]" value="<?=$soluong?>">
     <input type="hidden" name="tongtien" value="<?=$tongtien?>">
     <input type="hidden" name="ngaydathang" value="<?=$ngaydathang?>">
-<h1>Thông tin người nhận</h1>
+<h4 style="margin-top:20px">Thông tin người nhận</h4>
 <?php $tt = thongtin();
 foreach($tt as $row):extract($row);?>
 <div class="form-outline md-4">

@@ -3,7 +3,7 @@
     <div class="container-fluid h-custom">
       <div class="row d-flex justify-content-center align-items-center h-100">
         <div class="col-md-9 col-lg-6 col-xl-5">
-          <img src="public/img/log.jpg"
+          <img src="public/img/user.png" style="width:400px; margin-left:70px"
             class="img-fluid" alt="Sample image">
         </div>
         <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
@@ -12,17 +12,17 @@
 
             <!-- Email input -->
             <div class="form-outline mb-4">
-            <label class="form-label" for="form3Example3">Nhập email tài khoản</label>
+            <label class="form-label" for="form3Example3">Email tài khoản</label>
               <input type="email" name="email" id="form3Example3" class="form-control form-control-lg"
-                placeholder="Nhập email tài khoản đã quên mật khẩu" />
+                placeholder="Nhập email tài khoản" />
               
             </div>
   
             <!-- Password input -->
             <div class="form-outline mb-3">
-            <label class="form-label"  for="form3Example4">Nhập tên đăng nhập</label>
+            <label class="form-label"  for="form3Example4">Tên đăng nhập</label>
               <input type="text" id="form3Example4" name="user" class="form-control form-control-lg"
-                placeholder="tên đăng nhập" />
+                placeholder="Nhập tên đăng nhập" />
               
             </div>
   
@@ -39,12 +39,7 @@
         </div>
       </div>
     </div>
-    <div
-      class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-primary">
-      <!-- Copyright -->
-      <div class="text-white mb-3 mb-md-0">
-        Copyright © 2020. All rights reserved.
-      </div>
+    
       <!-- Copyright -->
   
       <!-- Right -->

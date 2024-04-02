@@ -3,7 +3,7 @@
             <div class="container-fluid h-custom">
               <div class="row d-flex justify-content-center align-items-center h-100">
                 <div class="col-md-9 col-lg-6 col-xl-5">
-                  <img src="public/img/log.jpg"
+                  <img src="public/img/user.png" style="width:400px; margin-left:70px"
                     class="img-fluid" alt="Sample image">
                 </div>
                 <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
@@ -11,7 +11,7 @@
           
                     <!-- Email input -->
                     <div class="form-outline mb-4">
-                    <label class="form-label" for="form3Example4">Xác nhận mật khẩu</label>
+                    <label class="form-label" for="form3Example4">Nhập mật khẩu mới</label>
                       <input type="text" name="pass" id="form3Example3" class="form-control form-control-lg"
                         placeholder="Mật khẩu mới" />
                       
