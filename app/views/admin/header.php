@@ -68,12 +68,7 @@
             </a>
             
           </li>
-          <li style="background-image: linear-gradient(to right, #555555, #444444);background-color: #1D2B36;" class="nav-item">
-            <a class="nav-link" href="index.php?act=thongke">
-              <span class="menu-title text-white">Thống kê</span>
-              <i style="color:white;margin-left: 38%;" class="fa-solid fa-layer-group"></i>
-            </a>
-          </li>
+          
 
           <li style="background-image: linear-gradient(to right, #555555, #444444);background-color: #1D2B36;" class="nav-item">
             <a class="nav-link" href="../../../index.php">

@@ -13,7 +13,7 @@
             <div class=" boxcontent cart">
                 <br>
                 <table class="formloai">
-                    <tr style="background-color: teal;color:white;">
+                    <tr style="background-color: #555555;color:white;">
                         <th style="width: 70px;padding: 5px;border:1px solid gray;">Mã</th>
                         <th style="width: 170px;border:1px solid gray;">Người đặt</th>
                         <th style="width: 140px;border:1px solid gray;">Thành tiền</th>
