@@ -74,14 +74,14 @@
         <div class="card-body">
           <img src="assets/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
           <h4 class="font-weight-normal mb-3">Tổng sản phẩm <i class="mdi mdi-chart-line mdi-24px float-right"></i>
-          <!-- </h4> <?php
+          </h4> <?php
 
                 foreach ($listthongke as $thongke) {
                   extract($thongke);
                   echo '
                     <h2 class="mb-5">' . $tsp . '</h2>
                   ';
-                } ?> -->
+                } ?>
         </div>
       </div>
     </div>
@@ -91,14 +91,14 @@
           <img src="assets/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
           <h4 class="font-weight-normal mb-3">Tổng số danh mục <i class="mdi mdi-bookmark-outline mdi-24px float-right"></i>
           </h4>
-          <!-- <?php
+          <?php
 
           foreach ($listthongke1 as $thongke) {
             extract($thongke);
             echo '
                     <h2 class="mb-5">' . $tdm . '</h2>
                   ';
-          } ?> -->
+          } ?>
 
         </div>
       </div>
@@ -109,14 +109,14 @@
           <img src="assets/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
           <h4 class="font-weight-normal mb-3">Tổng đơn hàng <i class="mdi mdi-diamond mdi-24px float-right"></i>
           </h4>
-          <!-- <?php
+          <?php
 
           foreach ($listthongke2 as $thongke) {
             extract($thongke);
             echo '
                     <h2 class="mb-5">' . $tdh . '</h2>
                   ';
-          } ?> -->
+          } ?>
 
         </div>
 
@@ -163,7 +163,7 @@
           }
 
           ?>
-  ]);
+        ]);
         // set bar chart options
         var barOptions = {
           focusTarget: 'category',
