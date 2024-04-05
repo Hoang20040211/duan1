@@ -55,8 +55,8 @@
                 </div>
 
                 <div class="mb-3">
-                  <span class="h5"><?=$price?> vnđ</span>
-                  <span class="text-muted">/per box</span>
+                  <span class="h5" style="color:red"><?=$price?> vnđ</span>
+                  <span class="text-muted"></span>
                 </div>
                 <p>
                   <?=$mota?>
@@ -70,7 +70,7 @@
                   <dd class="col-9">Brown</dd>
 
                   <dt class="col-3">Chất liệu</dt>
-                  <dd class="col-9">Cotton, Jeans</dd>
+                  <dd class="col-9">Cotton</dd>
 
                   <dt class="col-3">Hãng</dt>
                   <dd class="col-9"><?=$name_dm?></dd>
@@ -96,7 +96,7 @@
                   <div class="col-md-4 col-6 mb-3">
                     <label class="mb-2 d-block">Số lượng</label>
                     <div class="input-group mb-3" style="width: 170px;">
-                      <input type="number" oninput="validateQuantity(this)" name="soluong" min="1" class="form-control text-center border border-secondary"
+                      <input type="number" oninput="validateQuantity(this)" name="soluong" value="1" min="1" class="form-control text-center border border-secondary"
                         aria-label="Example text with button addon" aria-describedby="button-addon1" />
                     </div>
                   </div>
@@ -230,7 +230,7 @@
             <div class="px-0 border rounded-2 shadow-0">
               <div class="card">
                 <div class="card-body">
-                  <h5 class="card-title">Similar items</h5>
+                  <h5 class="card-title">Sản phẩm tương tự</h5>
 
                   <?php 
                   // echo $idsp;echo $iddm;
@@ -247,7 +247,7 @@
                       <a href="index.php?redirect=ctsp&id=<?=$idsp?>" class="nav-link mb-1">
                         <?=$name_sp?> <br />
                       </a>
-                      <strong class="text-dark mx-3"> <?=$price?></strong>
+                      <strong class="text-dark mx-3"> <?=$price?> vnđ</strong>
                     </div>
                   </div>
                   <?php endforeach ?>
