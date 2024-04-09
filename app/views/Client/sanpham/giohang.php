@@ -11,7 +11,7 @@
                     <input type="hidden" name="iduser" value="<?=$_SESSION['iduser']?>">
                 <?php endif?>
                     <input type="hidden" name="soluong[]" value="<?=$soluong?>">
-                    <input style="width:100%; border:1.5px solid black" type="text" name="idpro[]" value="<?=$idpro?>">
+                    <input style="width:100%; border:1px solid gray" type="text" name="idpro[]" value="<?=$idpro?>">
                     <input type="hidden" name="ngaydathang" value="<?php echo date("YMDHIS") ?>">
                     <input type="hidden" name="bill_status" value="0">
 
