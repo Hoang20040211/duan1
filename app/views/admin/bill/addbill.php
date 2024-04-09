@@ -21,7 +21,7 @@
                     </div>
                     <div class="">
                         Tổng<br>
-                        <input type="number" name="thanhtien"  required>
+                        <input type="number" name="thanhtien" required>
                     </div>
                     
                     <div class="">

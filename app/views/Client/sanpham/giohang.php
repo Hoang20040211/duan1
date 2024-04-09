@@ -1,4 +1,5 @@
 <?php if(isset($_SESSION['iduser'])):?>
+          
             <form action="index.php?redirect=thanhtoan" method="post" class="container pb-5 mb-2 mt-4">
                 <!-- Cart Item-->
                 <?php
@@ -10,7 +11,7 @@
                     <input type="hidden" name="iduser" value="<?=$_SESSION['iduser']?>">
                 <?php endif?>
                     <input type="hidden" name="soluong[]" value="<?=$soluong?>">
-                    <input type="text" name="idpro[]" value="<?=$idpro?>">
+                    <input style="width:100%; border:1.5px solid black" type="text" name="idpro[]" value="<?=$idpro?>">
                     <input type="hidden" name="ngaydathang" value="<?php echo date("YMDHIS") ?>">
                     <input type="hidden" name="bill_status" value="0">
 
@@ -55,7 +56,7 @@
                             <?=$namedm?> </span>
                     </div>
                     <div class="px-3 my-3 text-center">
-                        <a href="index.php?redirect=xoagiohang&id=<?=$idcart?>" class="text-xl font-weight-medium">
+                        <a style="text-decoration:none; color:red;" href="index.php?redirect=xoagiohang&id=<?=$idcart?>" class="text-xl font-weight-medium">
                         xóa
                         </a>
                     </div>
@@ -66,7 +67,7 @@
                     <div class="col-lg-6">
                       
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" style="">
                         <div class="abcxyz" style="margin-left:240px">
                             <h3>Thông tin người nhận</h3>
                             <?php $tt = thongtin();

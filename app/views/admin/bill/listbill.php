@@ -47,8 +47,7 @@
                                       <td><a href="index.php?act=updatett&id='.$idbill.'"><button style="border-radius:50px;padding:2px 10px;background-color:green;color:white">Cập nhật</button></a>
                                       <a href="index.php?act=listbillct&id_bill='.$idbill.'"><button style="border-radius:50px;padding:2px 10px;background-color:orange;color:white">Chi tiết</button></a>
                                      
-            
-                                      </form>
+                                    </form>
                         </tr>';
                         }
                         ?>

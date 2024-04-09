@@ -30,7 +30,7 @@
                 vnđ</span>
         </div>
         <div class="px-3 my-3 text-center">Trạng thái:
-            <a href="index.php?redirect=xoagiohang&id=<?=$idcart?>" class="text-xl font-weight-medium">
+            <a href="index.php?redirect=xoagiohang&id=<?=$idcart?>" class="text-xl font-weight-medium" style="text-decoration:none; color:#33CC00">
                 <?php if($bill_status==0){
                     echo 'Chờ xác nhận';   
                 }else if($bill_status == 1){
@@ -54,7 +54,7 @@
                 <?php }else if($bill_status == 4){?>
                    <button class="btn btn-primary">Đánh giá (bảo trì)</button>
                 <?php } ?><br/><br>
-                <button class="btn btn-success"><a style="color:white" href="index.php?redirect=billct&id_bill=<?=$idbill?>">Xem chi tiết đơn hàng</a></button>
+                <button class="btn btn-success"><a style="color:white; text-decoration:none " href="index.php?redirect=billct&id_bill=<?=$idbill?>">Xem chi tiết đơn hàng</a></button>
             </div>
         </div>
     </div>
