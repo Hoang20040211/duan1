@@ -174,7 +174,7 @@ if(isset($_GET['redirect'])){
                         addBillCt($value,$soluong[$key],$iduser,$idBillNewest);
                         endforeach;
                     }
-                echo '<script>alert("Thanh toán thành công")</script>';
+                echo '<script>alert("Đơn hàng đã được đặt")</script>';
                 echo '<script>window.location.href="index.php?redirect=donhang"</script>';
                 }
             }
