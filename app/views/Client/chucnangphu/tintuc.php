@@ -43,7 +43,7 @@
                                             </h3>
                                             <p>
                                             Hot family
-Gia đình Chuyện nhà Đậu rất tin dùng các sản phẩm chính hãng mua tại DHA SHOP. Phải công nhận rằng cũng nhờ vào những thiết bị này mà chúng mình mới có thể quay thêm nhiều vlog thú vị cho khán giả xem. Hãy đến các chi nhánh của DHASHOP trên toàn quốc để mua sắm và trải nghiệm nhé!
+Gia đình Chuyện nhà Đậu rất tin dùng các sản phẩm chính hãng mua tại DHD SHOP. Phải công nhận rằng cũng nhờ vào những thiết bị này mà chúng mình mới có thể quay thêm nhiều vlog thú vị cho khán giả xem. Hãy đến các chi nhánh của DHDSHOP trên toàn quốc để mua sắm và trải nghiệm nhé!
                                             </p>
                                         </div>
                                     </a>
@@ -58,7 +58,7 @@ Gia đình Chuyện nhà Đậu rất tin dùng các sản phẩm chính hãng m
                                             </h3>
                                             <p>
                                             Hot family
-Gia đình Chuyện nhà Đậu rất tin dùng các sản phẩm chính hãng mua tại DHA SHOP. Phải công nhận rằng cũng nhờ vào những thiết bị này mà chúng mình mới có thể quay thêm nhiều vlog thú vị cho khán giả xem. Hãy đến các chi nhánh của DHASHOP trên toàn quốc để mua sắm và trải nghiệm nhé!
+Gia đình Chuyện nhà Đậu rất tin dùng các sản phẩm chính hãng mua tại DHD SHOP. Phải công nhận rằng cũng nhờ vào những thiết bị này mà chúng mình mới có thể quay thêm nhiều vlog thú vị cho khán giả xem. Hãy đến các chi nhánh của DHDSHOP trên toàn quốc để mua sắm và trải nghiệm nhé!
                                             </p>
                                         </div>
                                     </a>
@@ -73,7 +73,7 @@ Gia đình Chuyện nhà Đậu rất tin dùng các sản phẩm chính hãng m
                                             </h3>
                                             <p>
                                             Hot family
-Gia đình Chuyện nhà Đậu rất tin dùng các sản phẩm chính hãng mua tại DHA SHOP. Phải công nhận rằng cũng nhờ vào những thiết bị này mà chúng mình mới có thể quay thêm nhiều vlog thú vị cho khán giả xem. Hãy đến các chi nhánh của DHASHOP trên toàn quốc để mua sắm và trải nghiệm nhé!
+Gia đình Chuyện nhà Đậu rất tin dùng các sản phẩm chính hãng mua tại DHD SHOP. Phải công nhận rằng cũng nhờ vào những thiết bị này mà chúng mình mới có thể quay thêm nhiều vlog thú vị cho khán giả xem. Hãy đến các chi nhánh của DHDSHOP trên toàn quốc để mua sắm và trải nghiệm nhé!
                                             </p>
                                         </div>
                                     </a>
@@ -88,7 +88,7 @@ Gia đình Chuyện nhà Đậu rất tin dùng các sản phẩm chính hãng m
                                             </h3>
                                             <p>
                                             Hot family
-Gia đình Chuyện nhà Đậu rất tin dùng các sản phẩm chính hãng mua tại DHA SHOP. Phải công nhận rằng cũng nhờ vào những thiết bị này mà chúng mình mới có thể quay thêm nhiều vlog thú vị cho khán giả xem. Hãy đến các chi nhánh của DHASHOP trên toàn quốc để mua sắm và trải nghiệm nhé!
+Gia đình Chuyện nhà Đậu rất tin dùng các sản phẩm chính hãng mua tại DHD SHOP. Phải công nhận rằng cũng nhờ vào những thiết bị này mà chúng mình mới có thể quay thêm nhiều vlog thú vị cho khán giả xem. Hãy đến các chi nhánh của DHDSHOP trên toàn quốc để mua sắm và trải nghiệm nhé!
                                             </p>x`
                                         </div>
                                     </a>
