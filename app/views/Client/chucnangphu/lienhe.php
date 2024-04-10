@@ -70,7 +70,7 @@
                         <div class="item_lienhe">
                             <h3><i class="bi bi-envelope-fill"></i>email</h3>
                             <p>
-                                dhashop09@gmail.com
+                                dhdshop05@gmail.com
                             </p>
                         </div>
                         <div class="item_lienhe">
