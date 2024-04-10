@@ -44,8 +44,8 @@
                                       <td>' . $bill["ngaydathang"] . '</td>   
                                       <td>' . $bill["receive_address"] . '</td>   
                                       <td>' . $bill["receive_tel"] . '</td>   
-                                      <td><a href="index.php?act=updatett&id='.$idbill.'"><button style="border-radius:50px;padding:2px 10px;background-color:green;color:white">Cập nhật</button></a>
-                                      <a href="index.php?act=listbillct&id_bill='.$idbill.'"><button style="border-radius:50px;padding:2px 10px;background-color:orange;color:white">Chi tiết</button></a>
+                                      <td><a href="index.php?act=updatett&id='.$idbill.'"><button style=" border-radius:5px;height:27px;padding:2px 10px;background-color:green;color:white">Cập nhật</button></a>
+                                      <a href="index.php?act=listbillct&id_bill='.$idbill.'"><button style="border-radius:5px;margin-top:5px;height:27px;padding:2px 10px;background-color:orange;color:white">Chi tiết</button></a>
                                      
                                     </form>
                         </tr>';

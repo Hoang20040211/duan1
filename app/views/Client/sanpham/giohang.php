@@ -55,10 +55,10 @@
                         <div class="cart-item-label">Hãng</div><span class="text-xl font-weight-medium">
                             <?=$namedm?> </span>
                     </div>
-                    <div class="px-3 my-3 text-center">
-                        <a style="text-decoration:none; color:red;" href="index.php?redirect=xoagiohang&id=<?=$idcart?>" class="text-xl font-weight-medium">
-                        xóa
-                        </a>
+                    <div  class="px-3 my-3 text-center">
+                        <button id="bt" style="border-radius:10px;width:60px;height:30px;background-color:red;"><a style="text-decoration:none; color:white;" href="index.php?redirect=xoagiohang&id=<?=$idcart?>" class="text-xl font-weight-medium">
+                        Xóa
+                        </a></button>
                     </div>
                 </div>
                 <?php endforeach?>
