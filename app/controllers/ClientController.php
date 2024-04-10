@@ -122,6 +122,7 @@ if(isset($_GET['redirect'])){
                     // If the item is not found in the cart, add it
                     if (!$found) {
                         addgiohang($iduser, $idpro, $soluong, $thanhtien);
+                        echo '<script>alert("Thêm giỏ hàng thành công")</script>';
                     }
             
                     include ("app/views/client/sanpham/giohang.php");
