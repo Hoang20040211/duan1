@@ -1,4 +1,4 @@
-<footer>
+<footer style="border:1px solid black">
     <div class="footer">
         <div class="boxcenter">
             <div class="row">

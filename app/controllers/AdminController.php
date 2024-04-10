@@ -278,7 +278,7 @@ if (isset($_GET['act'])) {
             $listthongke23 = loadall_thongke23();
             $listthongke24 = loadall_thongke24();
             $listthongke25 = loadall_thongke25();
-            $listthongke10 = loadall_thongke10();
+            // $listthongke10 = loadall_thongke10();
             $listthongke30 = loadall_thongke30();
 
 

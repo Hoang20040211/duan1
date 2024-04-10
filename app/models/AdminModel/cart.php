@@ -335,14 +335,14 @@ function loadall_thongke26()
     $listtk = pdo_query($sql);
     return $listtk;
 }
-function loadall_thongke10()
-{
+// function loadall_thongke10()
+// {
 
-    $sql = "select  name from cart order by soluong desc";
+//     $sql = "select  name from cart order by soluong desc";
 
-    $listtk = pdo_query_one($sql);
-    return $listtk;
-}
+//     $listtk = pdo_query_one($sql);
+//     return $listtk;
+// }
 function loadall_thongke30()
 {
 
