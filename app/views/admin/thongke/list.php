@@ -31,9 +31,9 @@
                   
                      <td>' . $tendm . '</td>
                      <td>' . $countsp . '</td>
-                     <td>' . $maxprice . '.VND</td>
-                     <td>' . $minprice . '.VND</td>
-                     <td>' . $avgprice . '.VND</td>
+                     <td>' . $maxprice . ' VND</td>
+                     <td>' . $minprice . ' VND</td>
+                     <td>' . $avgprice . ' VND</td>
                    
                     </tr>
                   

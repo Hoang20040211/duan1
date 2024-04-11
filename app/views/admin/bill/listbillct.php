@@ -27,7 +27,7 @@
     </div>
     <div>
         <strong> Tổng tiền</strong><br><br>
-        <p style="color:gray;"><?= $total ?>.VNĐ </p>
+        <p style="color:gray;"><?= $total ?> VNĐ </p>
         <strong>Tên người đặt: </strong>
         <p style="color:gray;"> <?= $receive_name ?></p>
         <strong>Địa chỉ nhận hàng: </strong><br>
