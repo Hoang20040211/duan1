@@ -67,22 +67,22 @@
                     <div class="col-lg-6">
                       
                     </div>
-                    <div class="col-lg-6" style="height:300px;width:570px;border-radius:10px;border:1px solid #888888;background-color:#999999; margin-left:550px">
+                    <div class="col-lg-6" style="height:300px;width:570px;border-radius:10px;border:1px solid #888888;background-color:white; margin-left:550px">
                         <img src="public/img/user.png" style="width:50px; margin-top: 10px;margin-left:10px" alt="">
                         <div class="abcxyz" style="margin-left:220px">
-                            <h3 style="color:white">Thông tin người nhận</h3>
+                            <h3 style="color:black">Thông tin người nhận</h3>
                             <?php $tt = thongtin();
                             foreach($tt as $row) :?>
-                            <input style="border-radius:5px;border:1px solid white" type="text" required name="receive_name" value="<?=$row['user']?>"> <br/>
-                            <input style="border-radius:5px;border:1px solid white" type="text" required name="receive_address" value="<?=$row['address']?>"><br/>
-                            <input style="border-radius:5px;border:1px solid white" type="text" required name="receive_tel" value="<?=$row['tel']?>"><br/>
+                            <input style="border-radius:5px;border:1px solid black" type="text" required name="receive_name" value="<?=$row['user']?>"> <br/>
+                            <input style="border-radius:5px;border:1px solid black" type="text" required name="receive_address" value="<?=$row['address']?>"><br/>
+                            <input style="border-radius:5px;border:1px solid black" type="text" required name="receive_tel" value="<?=$row['tel']?>"><br/>
                             <?php endforeach?>
                         </div>
                         <div class="py-2 d-flex flex-row-reverse"><span
                             class="fw-bold align-middle text-sm text-muted font-weight-medium text-uppercase mr-2" >
-                            <a style="color:white">Thành Tiền:</a><?php $sum = sumThanhTien();extract($sum);?>
+                            <a style="color:black">Thành Tiền:</a><?php $sum = sumThanhTien();extract($sum);?>
                             <input type="hidden" name="tongtien" value="<?=$tongtien?> ">
-                            <input style="border-radius:5px;border:1px solid white" type="text" name="thanhtien" value="<?=$tongtien?> VND" disabled> 
+                            <input style="border-radius:5px;border:1px solid black" type="text" name="thanhtien" value="<?=$tongtien?> VND" disabled> 
                         </span></div>
                     </div>
                 </div>
