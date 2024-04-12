@@ -17,21 +17,24 @@
 <?php $tt = thongtin();
 foreach($tt as $row):extract($row);?>
 <div class="form-outline md-4">
+<label class="form-label" for="form3Example3">tên người nhận</label>
     <input type="text" required name="receive_name" id="form3Example3" class="form-control form-control-lg"
 value="<?=$user?>" />
-    <label class="form-label" for="form3Example3">tên người nhận</label>
+    
 </div>
 <div class="form-outline md-4">
+<label class="form-label" for="form3Example3">địa chỉ</label>
     <input type="text" required name="receive_address" id="form3Example3" class="form-control form-control-lg"
     value="<?=$address?>" />
-    <label class="form-label" for="form3Example3">địa chỉ</label>
+    
 </div>
 
 <!-- Password input -->
 <div class="form-outline md-3">
+<label class="form-label"  for="form3Example4">số điện thoại</label>
     <input type="text" id="form3Example4" required name="receive_tel" class="form-control form-control-lg"
     value="<?=$tel?>" />
-    <label class="form-label"  for="form3Example4">số điện thoại</label>
+    
 </div>
 
 <div class="d-flex justify-content-between align-items-center">
