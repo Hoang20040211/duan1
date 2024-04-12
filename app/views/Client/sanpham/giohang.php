@@ -11,7 +11,7 @@
                     <input type="hidden" name="iduser" value="<?=$_SESSION['iduser']?>">
                 <?php endif?>
                     <input type="hidden" name="soluong[]" value="<?=$soluong?>">
-                    <input style="width:100%; border:1px solid gray" type="text" name="idpro[]" value="<?=$idpro?>">
+                    <input style="width:100%;border-radius:2px; border:1px solid gray;background-color: #777777; color:white" type="text" name="idpro[]" value="<?=$idpro?>">
                     <input type="hidden" name="ngaydathang" value="<?php echo date("YMDHIS") ?>">
                     <input type="hidden" name="bill_status" value="0">
 
@@ -56,7 +56,7 @@
                             <?=$namedm?> </span>
                     </div>
                     <div  class="px-3 my-3 text-center">
-                        <button id="bt" style="border-radius:10px;width:60px;height:30px;background-color:red;"><a style="text-decoration:none; color:white;" href="index.php?redirect=xoagiohang&id=<?=$idcart?>" class="text-xl font-weight-medium">
+                        <button id="bt" style="border:1px solid white;border-radius:10px;width:60px;height:30px;background-color:#EE0000;"><a style="text-decoration:none; color:white;" href="index.php?redirect=xoagiohang&id=<?=$idcart?>" class="text-xl font-weight-medium">
                         Xóa
                         </a></button>
                     </div>
@@ -67,21 +67,22 @@
                     <div class="col-lg-6">
                       
                     </div>
-                    <div class="col-lg-6" style="">
-                        <div class="abcxyz" style="margin-left:240px">
-                            <h3>Thông tin người nhận</h3>
+                    <div class="col-lg-6" style="height:300px;width:570px;border-radius:10px;border:1px solid #888888;background-color:#999999; margin-left:550px">
+                        <img src="public/img/user.png" style="width:50px; margin-top: 10px;margin-left:10px" alt="">
+                        <div class="abcxyz" style="margin-left:220px">
+                            <h3 style="color:white">Thông tin người nhận</h3>
                             <?php $tt = thongtin();
                             foreach($tt as $row) :?>
-                            <input type="text" required name="receive_name" value="<?=$row['user']?>"> <br/>
-                            <input type="text" required name="receive_address" value="<?=$row['address']?>"><br/>
-                            <input type="text" required name="receive_tel" value="<?=$row['tel']?>"><br/>
+                            <input style="border-radius:5px;border:1px solid white" type="text" required name="receive_name" value="<?=$row['user']?>"> <br/>
+                            <input style="border-radius:5px;border:1px solid white" type="text" required name="receive_address" value="<?=$row['address']?>"><br/>
+                            <input style="border-radius:5px;border:1px solid white" type="text" required name="receive_tel" value="<?=$row['tel']?>"><br/>
                             <?php endforeach?>
                         </div>
                         <div class="py-2 d-flex flex-row-reverse"><span
-                            class="fw-bold align-middle text-sm text-muted font-weight-medium text-uppercase mr-2">
-                            Thành Tiền:<?php $sum = sumThanhTien();extract($sum);?>
-                            <input type="hidden" name="tongtien" value="<?=$tongtien?>">
-                            <input type="text" name="thanhtien" value="<?=$tongtien?>" disabled> 
+                            class="fw-bold align-middle text-sm text-muted font-weight-medium text-uppercase mr-2" >
+                            <a style="color:white">Thành Tiền:</a><?php $sum = sumThanhTien();extract($sum);?>
+                            <input type="hidden" name="tongtien" value="<?=$tongtien?> ">
+                            <input style="border-radius:5px;border:1px solid white" type="text" name="thanhtien" value="<?=$tongtien?> VND" disabled> 
                         </span></div>
                     </div>
                 </div>
