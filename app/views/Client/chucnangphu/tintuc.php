@@ -4,7 +4,7 @@
             <div class="zek_page_banner zek_position">
                 <div class="zek_background wow fadeIn animated animated" data-wow-delay="500ms"
                     data-wow-duration="600ms"
-                    style="background-image: url(public/img/dior.jpg); visibility: visible; animation-duration: 600ms; animation-delay: 500ms; animation-name: fadeIn;">
+                    style="background-image: url(public/img/tintuccc.jpg); visibility: visible; animation-duration: 600ms; animation-delay: 500ms; animation-name: fadeIn;">
                 </div>
                 <div class="zek_overlay"></div>
                 <div class="inner text-center wow fadeIn animated animated" data-wow-delay="500ms"
@@ -36,7 +36,7 @@
                                 <div class="col-md-4">
                                     <a href="#" class="item_news">
                                         <div class="img_news">
-                                            <img src="public/img/nikedm.png" alt="">
+                                            <img src="public/img/tintuccc.jpg" alt="">
                                         </div>
                                         <div class="text_news">
                                             <h3>SẢN XUẤT TẠI VIỆT NAM
@@ -51,7 +51,7 @@ Gia đình Chuyện nhà Đậu rất tin dùng các sản phẩm chính hãng m
                                 <div class="col-md-4">
                                     <a href="#" class="item_news">
                                         <div class="img_news">
-                                            <img src="public/img/nikedm.png" alt="">
+                                            <img src="public/img/tintuccc.jpg" alt="">
                                         </div>
                                         <div class="text_news">
                                             <h3>SẢN XUẤT TẠI VIỆT NAM
@@ -66,7 +66,7 @@ Gia đình Chuyện nhà Đậu rất tin dùng các sản phẩm chính hãng m
                                 <div class="col-md-4">
                                     <a href="#" class="item_news">
                                         <div class="img_news">
-                                            <img src="public/img/nikedm.png" alt="">
+                                            <img src="public/img/tintuccc.jpg" alt="">
                                         </div>
                                         <div class="text_news">
                                             <h3>SẢN XUẤT TẠI VIỆT NAM
@@ -81,7 +81,7 @@ Gia đình Chuyện nhà Đậu rất tin dùng các sản phẩm chính hãng m
                                 <div class="col-md-4">
                                     <a href="#" class="item_news">
                                         <div class="img_news">
-                                            <img src="public/img/nikedm.png" alt="">
+                                            <img src="public/img/tintuccc.jpg" alt="">
                                         </div>
                                         <div class="text_news">
                                             <h3>SẢN XUẤT TẠI VIỆT NAM
@@ -125,7 +125,7 @@ Gia đình Chuyện nhà Đậu rất tin dùng các sản phẩm chính hãng m
                         </div>
                         <div class="boxconten_new ">
                             <div class=" mb10 top10">
-                                <img src="public/img/nikedm.png" alt="">
+                                <img src="public/img/tintuccc.jpg" alt="">
                                 <a href="#">tin tức</a>
                             </div>
                             <div class=" mb10 top10">
@@ -133,7 +133,15 @@ Gia đình Chuyện nhà Đậu rất tin dùng các sản phẩm chính hãng m
                                 <a href="#">tin tức</a>
                             </div>
                             <div class=" mb10 top10">
-                                <img src="public/img/nikedm.png" alt="">
+                                <img src="public/img/tintuccc.jpg" alt="">
+                                <a href="#">tin tức </a>
+                            </div>
+                            <div class=" mb10 top10">
+                                <img src="public/img/tintucc.jpg" alt="">
+                                <a href="#">tin tức </a>
+                            </div>
+                            <div class=" mb10 top10">
+                                <img src="public/img/tintuccc.jpg" alt="">
                                 <a href="#">tin tức </a>
                             </div>
                             <div class=" mb10 top10">
@@ -141,7 +149,7 @@ Gia đình Chuyện nhà Đậu rất tin dùng các sản phẩm chính hãng m
                                 <a href="#">tin tức </a>
                             </div>
                             <div class=" mb10 top10">
-                                <img src="public/img/nikedm.png" alt="">
+                                <img src="public/img/tintucc.jpg" alt="">
                                 <a href="#">tin tức </a>
                             </div>
                             <div class=" mb10 top10">
@@ -149,15 +157,7 @@ Gia đình Chuyện nhà Đậu rất tin dùng các sản phẩm chính hãng m
                                 <a href="#">tin tức </a>
                             </div>
                             <div class=" mb10 top10">
-                                <img src="public/img/nikedm.png" alt="">
-                                <a href="#">tin tức </a>
-                            </div>
-                            <div class=" mb10 top10">
-                                <img src="public/img/nikedm.png" alt="">
-                                <a href="#">tin tức </a>
-                            </div>
-                            <div class=" mb10 top10">
-                                <img src="public/img/nikedm.png" alt="">
+                                <img src="public/img/tintuccc.jpg" alt="">
                                 <a href="#">tin tức </a>
                             </div>
                         </div>
